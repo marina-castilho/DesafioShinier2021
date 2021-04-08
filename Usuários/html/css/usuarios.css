@@ -2,10 +2,7 @@ body
 {
     background-color: #090A0A;
 }
-h1
-{
-    justify-content: flex-start;
-}
+
 h2
 {
     font-family: Rubik;
@@ -17,4 +14,28 @@ h2
     text-align: left;
     text-emphasis-color: #9EA7AC;
    
+}
+
+.cabecalho{
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.cabecalho input[type=text]{
+
+    padding: 6px;
+    border: none;
+    margin-top: 30px;
+    margin-right: 10cm;
+    font-size: 17px;
+    background-color: #313131;
+}
+
+.cabecalho img [id=ret]{
+    justify-content: right;
+}
+
+.menu{
+    align-items: center;
 }
