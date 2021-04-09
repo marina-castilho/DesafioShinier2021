@@ -28,7 +28,7 @@ body
 .menu-item{
     justify-content: left;
     align-items:center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     margin-left: 10px;
 }
 
@@ -50,7 +50,15 @@ body
 }
 
 .botao button{
-    background-color: lightgreen;
+    background-color: #68A35D;
     margin-left: 700px;
     border-radius: 5px;
 }
+
+.retangulo{
+    background-color: #171819;
+    width: 82%;
+    margin-left: 15%;
+    height: 300px;
+}
+
