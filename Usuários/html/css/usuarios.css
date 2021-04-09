@@ -3,13 +3,13 @@ body
     background-color: #090A0A;
 }
 
-.cabecalho{
+#cabecalho{
     display: flex;
     align-items: flex-start;
 
 }
 
-.cabecalho input[type=text]{
+#cabecalho input[type=text]{
 
     padding: 6px;
     border: none;
@@ -20,13 +20,13 @@ body
     border-radius: 5px;
 }
 
-.perfil {
+#perfil {
     margin-left: 150px;
     margin-right: 10px;
     align-self: center;
 
 }
-.admin{
+#admin{
     align-self: center;
 }
 
@@ -37,11 +37,11 @@ body
     margin-left: 10px;
 }
 
-.titulo{
+#titulo{
     display: flex;
 }
 
-.title{
+#title{
     font-family: Rubik;
     font-size: 28px;
     font-style: normal;
@@ -54,7 +54,7 @@ body
     margin-left: 210px;
 }
 
-.botao button{
+#botao button{
     background-color: #68A35D;
     margin-left: 700px;
     border-radius: 5px;
@@ -63,7 +63,7 @@ body
 }
 
 
-.retangulo{
+#retangulo{
     background-color: #171819;
     width: 82%;
     margin-left: 15%;
@@ -71,6 +71,14 @@ body
     top:0;
 }
 
-.busca input{
+#busca input{
     width: 450px;
+}
+
+#menu{
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 80%;
+    flex-direction: column;
 }

@@ -1,32 +1,33 @@
 <template>
-<div>
-  <div class="cabecalho">
-        <div class="logo">
-            <h1>
-                <img src="src/logo_an 1.png" alt="Analytics">
-            </h1>
-        </div>
-        <div class="busca">
+    <div>
+        <div id="cabecalho">
+            <div id="logo">
+                <h1>
+                    <img src="src/logo_an 1.png" alt="Analytics">
+                </h1>
+             </div>
+            <div id="busca">
             <input type="text" placeholder="Buscar Funcionalidade">
         </div>
-        <div class="perfil">
+        <div id="perfil">
             <img src="src/Rectangle.svg" alt="retangulo" id="ret">
         </div>
-        <div>
+        <div id="admin">
             Super Admin
             <br>
             SUPER ADMIN
         </div>
-    </div>
-    <div class="titulo">
-        <div class="title">
+        </div>
+    <div id="titulo">
+        <div id="title">
             Usuários com acesso a plataforma
         </div>
-        <div class="botao">
+        <div id="botao">
             <button type="is-success">Novo usuário</button>
         </div>
-    </div>
-    <div class="menu">
+        </div>
+
+        <div id="menu">
         <div class="menu-item">
             <img src="src/dash.svg" alt="Analitcs">
             Dashboard
@@ -47,9 +48,13 @@
             <img src="src/categ.svg" alt="Analitcs">
             Categorias
         </div>
+        <div id="retangulo">
+            <canvas></canvas>
+        </div>
+
+     </div>
 
     </div>
-   </div>
 
 </template>
 
@@ -69,13 +74,13 @@ template
     background-color: #090A0A;
 }
 
-.cabecalho{
+#cabecalho{
     display: flex;
     align-items: flex-start;
 
 }
 
-.cabecalho input[type=text]{
+#cabecalho input[type=text]{
 
     padding: 6px;
     border: none;
@@ -86,23 +91,28 @@ template
     border-radius: 5px;
 }
 
-.perfil {
-    margin-left: 460px;
+#perfil {
+    margin-left: 150px;
     margin-right: 10px;
+    align-self: center;
+
+}
+#admin{
+    align-self: center;
 }
 
 .menu-item{
     justify-content: left;
     align-items:center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     margin-left: 10px;
 }
 
-.titulo{
+#titulo{
     display: flex;
 }
 
-.title{
+#title{
     font-family: Rubik;
     font-size: 28px;
     font-style: normal;
@@ -110,14 +120,37 @@ template
     line-height: 40px;
     letter-spacing: 0px;
     text-align: left;
-    text-emphasis-color: #9EA7AC;
+    color: #9EA7AC;
 
     margin-left: 210px;
 }
 
-.botao button{
-    background-color: lightgreen;
+#botao button{
+    background-color: #68A35D;
     margin-left: 700px;
     border-radius: 5px;
+    outline-offset: 0px;
+    padding: 3;
+}
+
+
+#retangulo{
+    background-color: #171819;
+    width: 82%;
+    margin-left: 15%;
+    height: 300px;
+    top:0;
+}
+
+#busca input{
+    width: 450px;
+}
+
+#menu{
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 80%;
+    flex-direction: column;
 }
 </style>
