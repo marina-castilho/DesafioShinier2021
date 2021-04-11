@@ -6,6 +6,7 @@
     font-size: 17px;
     background-color:#171819;
     border-radius: 5px;
+    margin-left: 110px;
 }
 
 img.logo {
@@ -30,26 +31,6 @@ li.menu-item > ul > img.icon {
 }
 
 
-.container{
-    /*font-family: Rubik;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #9EA7AC;
-    margin-left: 210px;*/
-}
-
-#botao button{
-    background-color: #68A35D;
-    margin-left: 700px;
-    border-radius: 5px;
-    outline-offset: 0px;
-    padding: 3;
-}
-
 .body{
     display: grid;
     grid-template-columns: 20% 80%;
@@ -61,5 +42,106 @@ li.menu-item > ul > img.icon {
     background: #171819;
     width: 100%;
     height: 100%;
+    border-radius: 5px;
 
 }
+
+nav.navbar.is-fixed-top {
+    background: transparent;
+  }
+
+  .retangulo{
+    margin-right: 10px;
+    margin-top: 30px;
+  }
+
+  .title{
+      margin-top: 15px;
+      margin-right: 50px;
+      text-align: left;
+  }
+
+  .admin{
+      display: flex;
+  }
+
+  .acesso{
+      margin-top: 30px;
+      height: 20px;
+      background: transparent;
+      font-family: Rubik;
+    font-size: 28px;
+    font-style: bold;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #9EA7AC;
+    margin-left: 110px
+  }
+
+  .paginas{
+      display: flex;
+      margin-top: 300px;
+      margin-left: 80%;
+  }
+   .um{
+    background-color: #68A35D;
+    color: white;
+    margin: 6px;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+   }
+
+   .dois{
+    background-color: #68A35D;
+    color: white;
+    margin: 6px;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+   }
+
+   .tres{
+    background-color: #68A35D;
+    color: white;
+    margin: 6px;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+   }
+
+   .quatro{
+    background-color: #68A35D;
+    color: white;
+    margin: 6px;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+   }
+
+   .cinco{
+    background-color: #68A35D;
+    color: white;
+    margin: 6px;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+   }
+
+   .pontos{
+    color: white;
+    margin: 3px;
+    text-align: end;
+   
+   }
+
+   .vinte{
+    background-color: #68A35D;
+    color: white;
+    margin: 6px;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+   }

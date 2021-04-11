@@ -9,25 +9,36 @@
             ratio="16by9"
             class="logo"
           />
-          <b-input
-            placeholder="Buscar Funcionalidade"
-            type="search"
-            icon="magnify"
-            icon-clickable
-            @icon-click="searchIconClick"
-            custom-class="input"
-          />
+          <div class="barra">
+            <b-input
+              placeholder="Buscar Funcionalidade"
+              type="search"
+              icon="magnify"
+              icon-clickable
+              @icon-click="searchIconClick"
+              custom-class="input"
+            />
+            <p class="acesso">Usuários com acesso a plataforma</p>
+          </div>
         </b-navbar-item>
       </template>
 
       <template #end>
-        <img src="pictures/Rectangle.svg" alt="Logo Analytis" ratio="16by9" />
-        <section class="hero is-small">
-          <div class="hero-body">
-            <p class="title">Super Admin</p>
-            <p class="subtitle">SUPER ADMIN</p>
+        <div class="admin">
+          <div class="retangulo">
+            <img
+              src="pictures/Rectangle.svg"
+              alt="Logo Analytis"
+              ratio="16by9"
+            />
           </div>
-        </section>
+          <section class="title">
+            <div class="title-body">
+              <p class="title is-5">Super Admin</p>
+              <p class="subtitle is-6">SUPER ADMIN</p>
+            </div>
+          </section>
+        </div>
       </template>
     </b-navbar>
     <div class="body">
@@ -68,6 +79,15 @@
         <div></div>
       </div>
     </div>
+    <div class="paginas">
+      <div class="um">1</div>
+      <div class="dois">2</div>
+      <div class="tres">3</div>
+      <div class="quatro">4</div>
+      <div class="cinco">5</div>
+      <div class="pontos">..</div>
+      <div class="vinte">20</div>
+    </div>
   </div>
 </template>
 
@@ -93,7 +113,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-nav.navbar.is-fixed-top {
-  background: transparent;
-}
 </style>
