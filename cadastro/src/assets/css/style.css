@@ -83,75 +83,8 @@ nav.navbar.is-fixed-top {
     color: #9EA7AC;
     margin-left: 110px
   }
-
-  .paginas{
-      display: flex;
-      margin-top: -130px;
-      margin-left: 80%;
-  }
-   .um{
-    background-color: #68A35D;
-    color: white;
-    margin: 6px;
-    height: 25px;
-    width: 25px;
-    border-radius: 5px;
-   }
-
-   .dois{
-    background-color: #68A35D;
-    color: white;
-    margin: 6px;
-    height: 25px;
-    width: 25px;
-    border-radius: 5px;
-   }
-
-   .tres{
-    background-color: #68A35D;
-    color: white;
-    margin: 6px;
-    height: 25px;
-    width: 25px;
-    border-radius: 5px;
-   }
-
-   .quatro{
-    background-color: #68A35D;
-    color: white;
-    margin: 6px;
-    height: 25px;
-    width: 25px;
-    border-radius: 5px;
-   }
-
-   .cinco{
-    background-color: #68A35D;
-    color: white;
-    margin: 6px;
-    height: 25px;
-    width: 25px;
-    border-radius: 5px;
-   }
-
-   .pontos{
-    color: white;
-    margin: 3px;
-    text-align: end;
    
-   }
-
-   .vinte{
-    background-color: #68A35D;
-    color: white;
-    margin: 6px;
-    height: 25px;
-    width: 25px;
-    border-radius: 5px;
-   }
-
    .botao{
        margin-top: 60px;
-       margin-left: 1200px;
-       width:105,93px;
+       margin-left: 1250px;
    }

@@ -18,7 +18,7 @@
               @icon-click="searchIconClick"
               custom-class="input"
             />
-            <p class="acesso">Usuários com acesso a plataforma</p>
+            <p class="acesso">Cadastrar novo usuário</p>
           </div>
         </b-navbar-item>
       </template>
@@ -42,7 +42,7 @@
       </template>
     </b-navbar>
     <div class="botao">
-      <b-button type="is-success">Novo Usuário</b-button>
+      <b-button type="is-success">Salvar</b-button>
     </div>
     <div class="body">
       <b-menu>
@@ -81,15 +81,6 @@
         <h1></h1>
         <div></div>
       </div>
-    </div>
-    <div class="paginas">
-      <div class="um">1</div>
-      <div class="dois">2</div>
-      <div class="tres">3</div>
-      <div class="quatro">4</div>
-      <div class="cinco">5</div>
-      <div class="pontos">..</div>
-      <div class="vinte">20</div>
     </div>
   </div>
 </template>
